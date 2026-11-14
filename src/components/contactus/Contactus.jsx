@@ -120,7 +120,7 @@ const Contactus = () => {
                         <span className="contact-label">LOCATION</span>
                         <h3>My Location</h3>
 
-                        <p>Erode, Tamil Nadu, India</p>
+                        <p>Coimbatore, Tamil Nadu, India</p>
                       </div>
 
                       {/* <FiArrowUpRight className="contact-arrow" size={20} /> */}
@@ -155,7 +155,7 @@ const Contactus = () => {
                         <h3>Open To Work</h3>
 
                         <p>
-                          Available for full-time opportunities &amp; freelance.
+                         Open to full-time employment opportunities &amp; Freelance engagements.
                         </p>
                       </div>
 
