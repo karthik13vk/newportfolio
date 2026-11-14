@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { BsListNested } from 'react-icons/bs';
 import "./navbar.scss";
+import newlogo from "./../../../public/VK_logo.png";
 
 const Navbarnew = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -34,8 +35,10 @@ const Navbarnew = () => {
             <div className="container">
                 <div className="logo">
                     <a href="/karthik_portfolio/">
-                        <span>Karthik</span>
-                        <span className='navtitle'>.</span>
+                        <span >
+                        <img src={newlogo} alt="Logo" className="logopart"/>
+                        </span>
+                        {/* <span className='navtitle'>.</span> */}
                     </a>
                 </div>
                 <div className="navigation">

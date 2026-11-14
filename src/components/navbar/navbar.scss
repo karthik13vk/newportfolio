@@ -2,10 +2,10 @@
 
 .navbar {
   height: 100px;
-      @include mobile {
-        padding: 20px!important;
-        height: auto;
-      }
+  @include mobile {
+    padding: 20px !important;
+    height: auto;
+  }
 
   // background-color: rebeccapurple;
   .wrapper {
@@ -70,6 +70,14 @@
       gap: 20px;
     }
   }
+
+  .logopart {
+    display: inline-block;
+    width: 70px;
+     @include desktop {
+      width: 110px;
+    }
+  }
 }
 
 .navbar {
@@ -129,9 +137,9 @@
           padding: 5px 0;
         }
       }
-      a{
-        &:hover{
-            color: #67e4f0;
+      a {
+        &:hover {
+          color: #67e4f0;
         }
       }
     }
@@ -168,10 +176,10 @@
   }
   .logo {
     a > span {
-      font-size: 50px;
-      color: #1ed5e7;
+      // font-size: 50px;
+      // color: #1ed5e7;
       @include mobile {
-        font-size: 20px;
+        // font-size: 20px;
       }
     }
   }
