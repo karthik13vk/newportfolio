@@ -155,7 +155,8 @@ const Contactus = () => {
                         <h3>Open To Work</h3>
 
                         <p>
-                         Open to full-time employment opportunities &amp; Freelance engagements.
+                          Full-time employment opportunities &amp; Freelance
+                          projects.
                         </p>
                       </div>
 
